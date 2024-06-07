@@ -1,0 +1,19 @@
+<header class="h-[68px] z-10 bg-gray-800 sticky top-0 flex items-center justify-between px-10">
+  <!-- Logo + navitems -->
+  <div class="flex gap-5">
+    <img width="110" src="/assets/logo.png" alt="error">
+    <ul class="flex items-center" *ngFor="let item of navList">
+      <li class="text-neutral-200 cursor-pointer text-sm font-extralight hover:text-gray-400 transition-[1s]">{{item}}</li>
+    </ul>
+  </div>
+  <!-- Welcome user | profile img | sign out -->
+   <div class="text-white flex items-center gap-3">
+      <div class="flex items-center gap-3">
+        <a href=""><span>{{name}}</span></a>
+        <img class="rounded-[25px] w-[42px] cursor-pointer hover:text-gray-500" [src]="userImg" alt="error Logo">
+      </div>
+      &nbsp; | &nbsp;
+      <a href="/">Sign Out</a>
+
+   </div>
+</header>

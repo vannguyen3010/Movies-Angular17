@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/swiper/swiper.scss",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -102,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "21f793ac-fb2a-43f8-a652-9c4eb10ddd08"
   }
 }
